@@ -4,13 +4,18 @@
   "description": "Es una calculadora con base de datos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "author": "Alonso Molina",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
     "express": "^4.21.1",
-    "mysql2": "^3.11.3"
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.3",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
