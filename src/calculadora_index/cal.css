@@ -1,6 +1,19 @@
 body{
     background-color: rgb(51, 49, 49);
 }
+header{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid gold;
+}
 #pantalla{
     height: 100hv;
     display: flex;
@@ -34,7 +47,11 @@ body{
     border-radius: 20px;
     border: 2px solid black;
 }
+#Historial a{
+    text-decoration:none;
+    color: gold;
+}
 #Historial:active{
-    height: 21px;
+    height: 22px;
     background-color: rgba(117, 111, 111, 0.7);
 }

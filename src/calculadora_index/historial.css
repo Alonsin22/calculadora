@@ -1,0 +1,36 @@
+header{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+}
+
+#texto{
+    position: fixed;
+    top: 40px;
+}
+
+#header a{
+    height: 17px;
+    text-align: center;
+    width: 70px;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius:20px ;
+}
+#header a:active{
+    height: 19px;
+    background-color: rgba(44, 42, 42, 0.9);
+    text-align: center;
+}
+
