@@ -1,10 +1,13 @@
 body{
     background-color: rgb(51, 49, 49);
+}
+#pantalla{
+    height: 100hv;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh; 
     margin: 0;
+    align-items: center;
 }
 
 #calculadora{
@@ -20,4 +23,18 @@ body{
 
 #resultado{
     padding: 30px;
+}
+
+#Historial{
+    display:absolute;
+    height: 20px;
+    width: 100px;
+    cursor:pointer;
+    background-color: rgba(68, 65, 65, 0.7);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#Historial:active{
+    height: 21px;
+    background-color: rgba(117, 111, 111, 0.7);
 }
